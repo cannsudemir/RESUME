@@ -1,0 +1,106 @@
+
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{academicons}
+
+\definecolor{arsenic}{rgb}{0.1, 0.1, 1}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{arsenic}
+\colorlet{accent}{arsenic}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Cansu Demir}
+\tagline{Hydogeologist-Environmental Engineer}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{cdemir@utexas.edu}
+  \phone{+1 512 915 8840}
+  \faLink { https://cannsudemir.github.io}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[page1sidebar]{Research Experience}
+
+\cvevent{Coastal Groundwater Dynamics in the Lagoons of Arctic}{\textcolor{black}{PhD dissertation project @ The University of Texas at Austin}}{Sept 2018 – today}{Austin, TX - Kaktovik/ Deadhorse, AK}
+
+\textbf{\textit{TOOLS:}} Field observations and multi-physics numerical modeling of groundwater flow, salt transport and freeze-thaw (COMSOL \& ATS)
+
+\divider
+
+\cvevent{Rehabilitation Assessment of a Depleted Coastal Aquifer}{\textcolor{black}{MSc Thesis project @ Middle East Technical University}}{Sept 2015 - Jul 2018}{Ankara, Turkey - Guzelyurt, Cyprus}
+
+\textbf{\textit{TOOLS:}} Field observations, parameter estimations and Water Budget Modeling via MODFLOW (GMS & ArcGIS)
+
+\divider
+
+\cvevent{Preparation of Industry Specific Guidebooks on Wastes: Thermal Power \& Waste Accumulator Recycling Plants}{\textcolor{black}{Middle East Technical University (in collaboration with the Ministry of Environment and Urbanization)}}{Jun 2016 - Jan 2017}{Ankara, Turkey}
+\textbf{\textit{TOOLS:}} Site visits, interviews with business owners/managers and analysis of the waste generation data provided
+
+\cvsection{TEACHING EXPERIENCE}
+
+\cvevent{}{TA | Dept. of Geological Sciences \textcolor{black}{@ The University of Texas at Austin}}{August 2020 - May 2021}{Austin, TX}
+%\begin{itemize}
+%\item Introduction to Physical and Chemical Hydrogeology
+%\item Groundwater Hydrology
+%\end{itemize}
+\textbf{\textit{COURSES:}} Introduction to Physical and Chemical Hydrogeology, Groundwater Hydrology
+
+\divider
+
+\cvevent{}{TA | Dept. of Environmental Eng. \textcolor{black}{@ Middle East Technical University}}{Nov 2015 - Jul 2018}{Ankara, Turkey}
+%\begin{itemize}
+%\item Environmental Engineering Modeling 
+%\item Transport Processes in Environmental Engineering
+%\item Unit Operations and Processes of Water Treatment
+%\item Environmental Microbiology Laboratory
+%\item Environmental Management
+%\end{itemize}
+\textbf{\textit{COURSES:}} Environmental Engineering Modeling, Transport Processes in Environmental Engineering, Unit Operations and Processes of Water Treatment, Environmental Microbiology Laboratory, Environmental Management
+
+\cvsection{PUBLICATIONS \& PRESENTATIONS}
+
+\hspace{1cm}\textbf{\textit{Demir, C.}}\textit{, Cardenas, M. B.,  Pedrazas, M. N.,  McClelland, J. W.,  Charette, M. A.} (2020) Nearshore Submarine Groundwater Discharge to an Arctic Lagoon. American Geophysical Union, Fall Meeting 2020, POSTER #B120-04
+
+\hspace{1cm}\textit{Pedrazas, M. N., Bayani Cardenas, M., \textbf{Demir, C.}, Watson, J. A., Connolly, C. T., & McClelland, J. W.} (2020). Absence of ice-bonded permafrost beneath an Arctic lagoon revealed by electrical geophysics. Science Advances, 6(43), eabb5083.
+
+\hspace{1cm}\textbf{\textit{Demir, C.}}, \textit{Cardenas, M. B.,  McClelland, J. W.,  Pedrazas, M. N.} (2019) Groundwater Discharge in the Lagoons of Alaskan Beaufort Sea, American Geophysical Union, Fall Meeting 2019, POSTER #C13E-1362
+
+\hspace{1cm}\textbf{\textit{Demir, C.}}\textit{, Yetiş, Ü., & Ünlü, K.} (2018). Identification of waste management strategies and waste generation factors for thermal power plant sector wastes in Turkey. Waste Management &  Research. 2019;37(3):210-218. \newline
+
+
+
+
+\clearpage
+
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
